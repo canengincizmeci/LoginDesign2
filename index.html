@@ -6,15 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LoginDesign2</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <div class="container">
+        <form action="#">
+            <h1>Login</h1>
+            <div class="inputBox">
 
+                <input type="text" class="inp" placeholder="Kullanıcı Adı" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="inputBox">
 
+                <input type="text" class="inp" placeholder="Şifre" required>
+                <i class='bx bxs-lock-alt'></i>
 
-
-
-
+            </div>
+            <div class="checkBox">
+                <label>
+                    <input type="checkbox">Beni Hatırla
+                </label>
+                <a href="#">Şİfrenizi mi Unuttunuz?</a>
+            </div>
+            <div class="btn">
+                <button type="submit">Login</button>
+            </div>
+            <div class="kayitLink">
+                <p>Üye değil misiniz? </p><a href="#">Kayıt ol</a>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
